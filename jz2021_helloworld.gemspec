@@ -3,20 +3,20 @@ require_relative 'lib/jz2021_helloworld/version'
 Gem::Specification.new do |spec|
   spec.name          = "jz2021_helloworld"
   spec.version       = Jz2021Helloworld::VERSION
-  spec.authors       = ["TODO: Write your name"]
-  spec.email         = ["TODO: Write your email address"]
+  spec.authors       = ["Jess"]
+  spec.email         = ["jesszhang2020@gmail.com"]
 
-  spec.summary       = %q{TODO: Write a short summary, because RubyGems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = %q{Hello World.}
+  spec.description   = %q{Hello World to command line.}
+  spec.homepage      = "https://github.com/analyticalCat/gem_helloworld"
   spec.license       = "MIT"
   spec.required_ruby_version = Gem::Requirement.new(">= 2.3.0")
 
-  spec.metadata["allowed_push_host"] = "TODO: Set to 'http://mygemserver.com'"
+  spec.metadata["allowed_push_host"] = "http://rubygems.org'"
 
   spec.metadata["homepage_uri"] = spec.homepage
-  spec.metadata["source_code_uri"] = "TODO: Put your gem's public repo URL here."
-  spec.metadata["changelog_uri"] = "TODO: Put your gem's CHANGELOG.md URL here."
+  spec.metadata["source_code_uri"] = "https://github.com/analyticalCat/gem_helloworld"
+  spec.metadata["changelog_uri"] = "https://github.com/analyticalCat/gem_helloworld/changelog.md"
 
   # Specify which files should be added to the gem when it is released.
   # The `git ls-files -z` loads the files in the RubyGem that have been added into git.
