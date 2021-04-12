@@ -12,7 +12,9 @@ Gem::Specification.new do |spec|
   spec.license       = "MIT"
   spec.required_ruby_version = Gem::Requirement.new(">= 2.3.0")
 
-  spec.metadata["allowed_push_host"] = "http://rubygems.org"
+  # commented out for the gem pushing issue for a long time.  We need to use https instead. 
+  # spec.metadata["allowed_push_host"] = "http://rubygems.org" 
+
 
   spec.metadata["homepage_uri"] = spec.homepage
   spec.metadata["source_code_uri"] = "https://github.com/analyticalCat/gem_helloworld"
